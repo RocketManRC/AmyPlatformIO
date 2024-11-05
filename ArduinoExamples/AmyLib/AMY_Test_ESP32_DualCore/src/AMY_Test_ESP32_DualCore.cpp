@@ -1,12 +1,19 @@
+/*
+  This is AMY_Test_ESP32_DualCore.ino renamed to AMY_Test_ESP32.cpp for PlatforIO with
+  the I2S pins changed for my hardware and with pin 21 not used for Alles.
+
+  Note that xQueueSemaphore is not actually used.
+*/
+
 #include <AMY-Arduino.h>
 #include <ESP_I2S.h>
 
 AMY amy;
 I2SClass I2S;
 
-#define CONFIG_I2S_BCLK 47 
-#define CONFIG_I2S_LRCLK 38
-#define CONFIG_I2S_DIN 48
+#define CONFIG_I2S_BCLK 21 
+#define CONFIG_I2S_LRCLK 47
+#define CONFIG_I2S_DIN 38
 
 
 // mutex that locks writes to the delta queue
@@ -83,8 +90,8 @@ void* esp_fill_audio_buffer_task(void*) {
 void setup() {
   // This is if you're using an Alles board, you have to poke 5V_EN to turn on the speaker
   // You can ignore this if you're not using an Alles
-  pinMode(21, OUTPUT);
-  digitalWrite(21, 1);
+  //pinMode(21, OUTPUT);
+  //digitalWrite(21, 1);
 
   // Set your I2S pins. 
   I2S.setPins(CONFIG_I2S_BCLK, CONFIG_I2S_LRCLK, CONFIG_I2S_DIN, -1, -1);

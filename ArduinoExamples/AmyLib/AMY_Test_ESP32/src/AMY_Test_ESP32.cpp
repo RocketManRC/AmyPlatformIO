@@ -1,3 +1,8 @@
+/*
+  This is AMY_Test_ESP32.ino renamed to AMY_Test_ESP32.cpp for PlatforIO with
+  the I2S pins changed for my hardware and with pin 21 not used for Alles.
+*/
+
 #include <AMY-Arduino.h>
 #include <ESP_I2S.h>
 
@@ -7,12 +12,12 @@ I2SClass I2S;
 void setup() {
   // This is if you're using an Alles board, you have to poke 5V_EN to turn on the speaker
   // You can ignore this if you're not using an Alles
-  pinMode(21, OUTPUT);
-  digitalWrite(21, 1);
+  //pinMode(21, OUTPUT);
+  //digitalWrite(21, 1);
 
   // Set your I2S pins. Data/SD/DIN/DOUT, SCK/BLCK, FS/WS/LRCLK. 
   //  int8_t bclk, int8_t ws, int8_t dout,
-  I2S.setPins(47, 38, 48, -1, -1);
+  I2S.setPins(21, 47, 38, -1, -1);
   I2S.begin(I2S_MODE_STD, AMY_SAMPLE_RATE, I2S_DATA_BIT_WIDTH_16BIT, I2S_SLOT_MODE_MONO); // I2S.begin(I2S_PHILIPS_MODE, AMY_SAMPLE_RATE, AMY_BYTES_PER_SAMPLE);
 
   // Start up AMY
@@ -44,7 +49,6 @@ void setup() {
 
   // Run an example drum loop to start 7500ms from now, play twice, stop
   amy.drums(clock+7501, 2);
-
 }
 
 
