@@ -8,10 +8,10 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/AMY_Test_ESP32_PCM_Samples/include",
-                "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/AMY_Test_ESP32_PCM_Samples/src",
+                "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/Amy_Test_ESP32_PCM_Samples/include",
+                "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/Amy_Test_ESP32_PCM_Samples/src",
                 "/Users/rick/.pioarduino/packages/framework-arduinoespressif32/libraries/ESP_I2S/src",
-                "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/AMY_Test_ESP32_PCM_Samples/.pio/libdeps/ESP32-S3-DevKitC-N16R8/AMY Synthesizer/src",
+                "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/Amy_Test_ESP32_PCM_Samples/.pio/libdeps/ESP32-S3-DevKitC-N16R8/AMY Synthesizer/src",
                 "/Users/rick/.pioarduino/packages/framework-arduinoespressif32-libs/esp32s3/include/newlib/platform_include",
                 "/Users/rick/.pioarduino/packages/framework-arduinoespressif32-libs/esp32s3/include/freertos/FreeRTOS-Kernel/include",
                 "/Users/rick/.pioarduino/packages/framework-arduinoespressif32-libs/esp32s3/include/freertos/FreeRTOS-Kernel/portable/xtensa/include",
@@ -307,10 +307,10 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/AMY_Test_ESP32_PCM_Samples/include",
-                    "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/AMY_Test_ESP32_PCM_Samples/src",
+                    "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/Amy_Test_ESP32_PCM_Samples/include",
+                    "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/Amy_Test_ESP32_PCM_Samples/src",
                     "/Users/rick/.pioarduino/packages/framework-arduinoespressif32/libraries/ESP_I2S/src",
-                    "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/AMY_Test_ESP32_PCM_Samples/.pio/libdeps/ESP32-S3-DevKitC-N16R8/AMY Synthesizer/src",
+                    "/Users/rick/Sync/Projects/PlatformIO/AmyPlatformIO/ArduinoExamples/AmyExtras/Amy_Test_ESP32_PCM_Samples/.pio/libdeps/ESP32-S3-DevKitC-N16R8/AMY Synthesizer/src",
                     "/Users/rick/.pioarduino/packages/framework-arduinoespressif32-libs/esp32s3/include/newlib/platform_include",
                     "/Users/rick/.pioarduino/packages/framework-arduinoespressif32-libs/esp32s3/include/freertos/FreeRTOS-Kernel/include",
                     "/Users/rick/.pioarduino/packages/framework-arduinoespressif32-libs/esp32s3/include/freertos/FreeRTOS-Kernel/portable/xtensa/include",
