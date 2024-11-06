@@ -44,7 +44,7 @@ The AMY support for Arduino on the ESP32 uses version 3 of arduino-esp32 and thi
 
 All settings for a PlatformIO project are contained in the file platformio.ini and this has been provided for each example. Opening the folder for the example in Visual Studio Code which has the platformio extension installed will automatically download the necesary files and then building the project will complete the setup of the project.
 
-### The Examples - Work in Progress...###
+### The Examples - Work in Progress... ###
 
 The examples are in subfolders of the repository. For each example you will have to edit the source file to change the pin assignments if you are not using the ones mentioned above.
 
