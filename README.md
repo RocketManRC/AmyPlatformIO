@@ -62,6 +62,11 @@ For the above two examples the original .ino files can be found in the ".pio/lib
 
 This example plays all the PCM samples using AMY's wire protocol. For microcontrollers AMY will only have 11 PCM sample however this can easily be changed by editing the AMY file amy.c (more details in the source code).
 
+**ArduinoExamples/AmyExtras/Amy_Test_ESP32_Patches**
+
+This example plays all the Juno and DX7 patches using AMY's wire protocol. This is almost identical to the PCM_Samples example except the patches
+playcontinuously so need to be turned off.
+
 **ArduinoExamples/AmyExtras/AMY_Test_ESP32_USB_MIDI**
 
 This example is under development and will be next.
